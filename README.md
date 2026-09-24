@@ -190,7 +190,7 @@ the repair in https://github.com/huggingface/lerobot/issues/4409."
 HF_XET_HIGH_PERFORMANCE=1 hf upload "$TARGET_REPO" "$OUTPUT" . \
   --repo-type dataset \
   --exclude "repair_manifest.json" \
-  --commit-message "Fix MetaWorld MT50 push-back task metadata" \
+  --commit-message "Fix push-back-v3 task_index and instruction" \
   --commit-description "$COMMIT_DESCRIPTION" \
   --create-pr
 ```
